@@ -1,0 +1,2623 @@
+
+
+*******************************************************************************
+Fri Jan 29 10:30:46 2016
+
+
+FIT:    data read from 'prom60.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [55.0000 : 300.000]
+
+Current data point
+=========================
+#               = 10 out of 163
+x               = 71.25          
+z               = 193.75         
+s               = 0              
+
+BREAK: Zero error value in data file
+
+*******************************************************************************
+Fri Jan 29 10:31:05 2016
+
+
+FIT:    data read from 'prom60.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [57.2362 : 299.246]
+
+Current data point
+=========================
+#               = 10 out of 162
+x               = 71.25          
+z               = 193.75         
+s               = 0              
+
+BREAK: Zero error value in data file
+
+*******************************************************************************
+Fri Jan 29 10:31:26 2016
+
+
+FIT:    data read from 'prom60.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [55.0000 : 300.000]
+
+Current data point
+=========================
+#               = 10 out of 163
+x               = 71.25          
+z               = 193.75         
+s               = 0              
+
+BREAK: Zero error value in data file
+
+*******************************************************************************
+Fri Jan 29 10:32:41 2016
+
+
+FIT:    data read from 'prom60.dat' u 1:2
+        format = x:z
+        x range restricted to [55.0000 : 300.000]
+        #datapoints = 163
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 5.7953889583e+05   0.00e+00  1.33e+02    1.000000e+00   1.000000e+00
+   5 4.5724575255e+05  -4.28e-05  1.33e-03    8.053171e-01   5.879304e+01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 457246
+rel. change during last iteration : -4.28137e-10
+
+degrees of freedom    (FIT_NDF)                        : 161
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 53.292
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2840.04
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.805317         +/- 0.05989      (7.437%)
+b               = 58.793           +/- 11.26        (19.15%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.929  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 10:32:54 2016
+
+
+FIT:    data read from 'prom60.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [100.000 : 300.000]
+
+Current data point
+=========================
+#               = 5 out of 134
+x               = 105            
+z               = 173.75         
+s               = 0              
+
+BREAK: Zero error value in data file
+
+*******************************************************************************
+Fri Jan 29 10:32:57 2016
+
+
+FIT:    data read from 'prom60.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [100.000 : 200.000]
+
+Current data point
+=========================
+#               = 5 out of 72
+x               = 105            
+z               = 173.75         
+s               = 0              
+
+BREAK: Zero error value in data file
+
+*******************************************************************************
+Fri Jan 29 10:33:02 2016
+
+
+FIT:    data read from 'prom60.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [120.000 : 200.000]
+
+Current data point
+=========================
+#               = 7 out of 57
+x               = 128.75         
+z               = 217.5          
+s               = 0              
+
+BREAK: Zero error value in data file
+
+*******************************************************************************
+Fri Jan 29 10:33:15 2016
+
+
+FIT:    data read from 'prom60.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [120.000 : 200.000]
+
+Current data point
+=========================
+#               = 7 out of 57
+x               = 128.75         
+z               = 217.5          
+s               = 0              
+
+BREAK: Zero error value in data file
+
+*******************************************************************************
+Fri Jan 29 10:33:21 2016
+
+
+FIT:    data read from 'prom60.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [120.000 : 130.000]
+
+Current data point
+=========================
+#               = 7 out of 8
+x               = 128.75         
+z               = 217.5          
+s               = 0              
+
+BREAK: Zero error value in data file
+
+*******************************************************************************
+Fri Jan 29 10:33:26 2016
+
+
+FIT:    data read from 'prom60.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [120.000 : 122.000]
+        #datapoints = 2
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 8.9342473259e-02   0.00e+00  1.90e+00    8.053171e-01   5.879304e+01
+   7 0.0000000000e+00  -inf       1.90e-07    1.400000e+00  -2.175000e+01
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -1.69514e-24
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 1.4            
+b               = -21.75         
+
+
+*******************************************************************************
+Fri Jan 29 10:33:31 2016
+
+
+FIT:    data read from 'prom60.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [120.000 : 124.000]
+        #datapoints = 4
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.4917646129e+00   0.00e+00  2.72e+00    1.400000e+00  -2.175000e+01
+   6 2.4357920037e-01  -1.03e-04  2.72e-06    1.289816e+01  -1.403359e+03
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0.243579
+rel. change during last iteration : -1.03381e-09
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.348984
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.12179
+p-value of the Chisq distribution (FIT_P)              : 0.885335
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 12.8982          +/- 5.134        (39.8%)
+b               = -1403.36         +/- 624.9        (44.53%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -1.000  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 10:33:37 2016
+
+
+FIT:    data read from 'prom60.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [120.000 : 124.000]
+        #datapoints = 4
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 2.4357920037e-01   0.00e+00  3.33e+01    1.289816e+01  -1.403359e+03
+   1 2.4357920037e-01   0.00e+00  3.33e+01    1.289816e+01  -1.403359e+03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0.243579
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.348984
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.12179
+p-value of the Chisq distribution (FIT_P)              : 0.885335
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 12.8982          +/- 5.134        (39.8%)
+b               = -1403.36         +/- 624.9        (44.53%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -1.000  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 10:38:20 2016
+
+
+FIT:    data read from 'prom60.dat' u 1:2
+        format = x:z
+        x range restricted to [55.0000 : 300.000]
+        #datapoints = 163
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 5.7953889583e+05   0.00e+00  1.33e+02    1.000000e+00   1.000000e+00
+   5 4.5724575255e+05  -4.28e-05  1.33e-03    8.053171e-01   5.879304e+01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 457246
+rel. change during last iteration : -4.28137e-10
+
+degrees of freedom    (FIT_NDF)                        : 161
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 53.292
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2840.04
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.805317         +/- 0.05989      (7.437%)
+b               = 58.793           +/- 11.26        (19.15%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.929  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 10:39:24 2016
+
+
+FIT:    data read from 'prom20.dat' u 1:2
+        format = x:z
+        x range restricted to [100.000 : 300.000]
+        #datapoints = 161
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.9952139858e+05   0.00e+00  1.26e+02    8.053171e-01   5.879304e+01
+   3 5.6368796184e+04  -8.80e-03  1.26e-01    8.530139e-01   7.894323e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 56368.8
+rel. change during last iteration : -8.80208e-08
+
+degrees of freedom    (FIT_NDF)                        : 159
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 18.8287
+variance of residuals (reduced chisquare) = WSSR/ndf   : 354.521
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.853014         +/- 0.02554      (2.994%)
+b               = 78.9432          +/- 5.32         (6.739%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.960  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 10:39:43 2016
+
+
+FIT:    data read from 'prom20.dat' u 1:2
+        format = x:z
+        #datapoints = 377
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 7.9606428785e+05   0.00e+00  1.94e+02    8.530139e-01   7.894323e+01
+   2 7.4304921109e+05  -3.31e-01  1.94e+00    8.814114e-01   8.243730e+01
+
+After 2 iterations the fit converged.
+final sum of squares of residuals : 743049
+rel. change during last iteration : -3.3122e-06
+
+degrees of freedom    (FIT_NDF)                        : 375
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 44.5136
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1981.46
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.881411         +/- 0.01378      (1.564%)
+b               = 82.4373          +/- 4.254        (5.161%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.842  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 10:39:47 2016
+
+
+FIT:    data read from 'prom20.dat' u 1:2
+        format = x:z
+        x range restricted to [100.000 : 300.000]
+        #datapoints = 161
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 7.0355861569e+04   0.00e+00  1.42e+02    8.814114e-01   8.243730e+01
+   3 5.6368796184e+04  -3.30e-05  1.42e-01    8.530139e-01   7.894323e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 56368.8
+rel. change during last iteration : -3.29729e-10
+
+degrees of freedom    (FIT_NDF)                        : 159
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 18.8287
+variance of residuals (reduced chisquare) = WSSR/ndf   : 354.521
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.853014         +/- 0.02554      (2.994%)
+b               = 78.9432          +/- 5.32         (6.739%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.960  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 10:39:53 2016
+
+
+FIT:    data read from 'prom20.dat' u 1:2
+        format = x:z
+        x range restricted to [150.000 : 200.000]
+        #datapoints = 41
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.1052078437e+04   0.00e+00  1.20e+02    8.530139e-01   7.894323e+01
+   4 1.0027673518e+04  -1.19e-05  1.20e-02    9.693800e-01   5.388625e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 10027.7
+rel. change during last iteration : -1.18996e-10
+
+degrees of freedom    (FIT_NDF)                        : 39
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 16.035
+variance of residuals (reduced chisquare) = WSSR/ndf   : 257.12
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.96938          +/- 0.1693       (17.47%)
+b               = 53.8863          +/- 29.74        (55.18%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.996  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 10:40:37 2016
+
+
+FIT:    data read from 'prom20.dat' u 1:2
+        format = x:z
+        x range restricted to [100.000 : 300.000]
+        #datapoints = 161
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 6.4238942977e+04   0.00e+00  1.48e+02    9.693800e-01   5.388625e+01
+   3 5.6368796184e+04  -8.59e-02  1.48e-01    8.530139e-01   7.894323e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 56368.8
+rel. change during last iteration : -8.58963e-07
+
+degrees of freedom    (FIT_NDF)                        : 159
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 18.8287
+variance of residuals (reduced chisquare) = WSSR/ndf   : 354.521
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.853014         +/- 0.02554      (2.994%)
+b               = 78.9432          +/- 5.32         (6.739%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.960  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 10:43:56 2016
+
+
+FIT:    data read from 'prom20.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [100.000 : 300.000]
+        #datapoints = 161
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.4222668918e+07   0.00e+00  1.67e+03    1.000000e+00   1.000000e+00
+   3 1.6779969347e+02  -2.43e-01  1.67e+00    1.221660e+00   1.001601e+00
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 167.8
+rel. change during last iteration : -2.42677e-06
+
+degrees of freedom    (FIT_NDF)                        : 159
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.0273
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.05534
+p-value of the Chisq distribution (FIT_P)              : 0.300881
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.22166          +/- 0.03694      (3.024%)
+b               = 1.0016           +/- 11.08        (1106%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -1.000  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 10:45:27 2016
+
+
+FIT:    data read from 'prom60.dat' u 1:2
+        format = x:z
+        x range restricted to [55.0000 : 300.000]
+        #datapoints = 163
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 5.7953889583e+05   0.00e+00  1.33e+02    1.000000e+00   1.000000e+00
+   5 4.5724575255e+05  -4.28e-05  1.33e-03    8.053171e-01   5.879304e+01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 457246
+rel. change during last iteration : -4.28137e-10
+
+degrees of freedom    (FIT_NDF)                        : 161
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 53.292
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2840.04
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.805317         +/- 0.05989      (7.437%)
+b               = 58.793           +/- 11.26        (19.15%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.929  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 10:45:31 2016
+
+
+FIT:    data read from 'prom60.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [55.0000 : 300.000]
+        #datapoints = 163
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 2.2615085007e+09   0.00e+00  7.57e+03    8.053171e-01   5.879304e+01
+   3 2.2291517807e+09  -3.04e-04  7.57e+00    7.354833e-01   7.750677e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 2.22915e+09
+rel. change during last iteration : -3.03678e-09
+
+degrees of freedom    (FIT_NDF)                        : 161
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3720.98
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.38457e+07
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.735483         +/- 0.06859      (9.326%)
+b               = 77.5068          +/- 13.92        (17.95%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.941  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 10:45:54 2016
+
+
+FIT:    data read from 'prom60.dat' u 1:2
+        format = x:z
+        x range restricted to [55.0000 : 300.000]
+        #datapoints = 163
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.6803230543e+05   0.00e+00  1.12e+02    7.354833e-01   7.750677e+01
+   3 4.5724575255e+05  -2.48e-05  1.12e-01    8.053171e-01   5.879304e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 457246
+rel. change during last iteration : -2.4827e-10
+
+degrees of freedom    (FIT_NDF)                        : 161
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 53.292
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2840.04
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.805317         +/- 0.05989      (7.437%)
+b               = 58.793           +/- 11.26        (19.15%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.929  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 10:45:59 2016
+
+
+FIT:    data read from 'prom60.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [55.0000 : 300.000]
+        #datapoints = 163
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 2.2615085006e+09   0.00e+00  7.57e+03    8.053171e-01   5.879304e+01
+   3 2.2291517807e+09  -3.04e-04  7.57e+00    7.354833e-01   7.750677e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 2.22915e+09
+rel. change during last iteration : -3.03678e-09
+
+degrees of freedom    (FIT_NDF)                        : 161
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3720.98
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.38457e+07
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.735483         +/- 0.06859      (9.326%)
+b               = 77.5068          +/- 13.92        (17.95%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.941  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 10:46:44 2016
+
+
+FIT:    data read from 'prom90.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [55.0000 : 300.000]
+        #datapoints = 182
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.4631945053e+09   0.00e+00  6.38e+03    7.354833e-01   7.750677e+01
+   3 1.4435678355e+09  -1.65e-05  6.38e+00    6.775917e-01   8.456565e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 1.44357e+09
+rel. change during last iteration : -1.64539e-10
+
+degrees of freedom    (FIT_NDF)                        : 180
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2831.93
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.01982e+06
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.677592         +/- 0.06008      (8.867%)
+b               = 84.5657          +/- 13.41        (15.86%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.949  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 10:54:39 2016
+
+
+FIT:    data read from 'prom10.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [50.0000 : 350.000]
+        #datapoints = 239
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 5.2622068515e+08   0.00e+00  3.43e+03    1.000000e+00   1.000000e+00
+   5 8.2591255090e+07  -1.34e-03  3.43e-02    7.130052e-01   1.452753e+02
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 8.25913e+07
+rel. change during last iteration : -1.34139e-08
+
+degrees of freedom    (FIT_NDF)                        : 237
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 590.327
+variance of residuals (reduced chisquare) = WSSR/ndf   : 348486
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.713005         +/- 0.01792      (2.514%)
+b               = 145.275          +/- 5.083        (3.499%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.899  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 10:58:15 2016
+
+
+FIT:    data read from 'prom10.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [50.0000 : 350.000]
+        #datapoints = 232
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 6.8515361797e+02   0.00e+00  3.79e+00    1.000000e+00   1.000000e+00
+   5 9.2356108437e+01  -1.29e-03  3.79e-05    8.009866e-01   1.186155e+02
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 92.3561
+rel. change during last iteration : -1.28938e-08
+
+degrees of freedom    (FIT_NDF)                        : 230
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.633678
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.401548
+p-value of the Chisq distribution (FIT_P)              : 1
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.800987         +/- 0.02085      (2.603%)
+b               = 118.615          +/- 5.177        (4.365%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.928  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 11:18:26 2016
+
+
+FIT:    data read from 'prom10.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [50.0000 : 350.000]
+        #datapoints = 201
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.3401925988e+02   0.00e+00  2.47e+00    1.000000e+00   1.000000e+00
+   5 3.2070492687e+01  -5.28e-04  2.47e-05    7.117760e-01   1.319341e+02
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 32.0705
+rel. change during last iteration : -5.27842e-09
+
+degrees of freedom    (FIT_NDF)                        : 199
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.401445
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.161158
+p-value of the Chisq distribution (FIT_P)              : 1
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.711776         +/- 0.02035      (2.859%)
+b               = 131.934          +/- 4.08         (3.092%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.917  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 11:30:59 2016
+
+
+FIT:    data read from 'prom10.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [50.0000 : 350.000]
+        #datapoints = 223
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 5.4459568250e+02   0.00e+00  3.10e+00    1.000000e+00   1.000000e+00
+   5 6.5694669552e+01  -6.38e-04  3.10e-05    7.384559e-01   1.287096e+02
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 65.6947
+rel. change during last iteration : -6.38472e-09
+
+degrees of freedom    (FIT_NDF)                        : 221
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.545216
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.297261
+p-value of the Chisq distribution (FIT_P)              : 1
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.738456         +/- 0.02083      (2.82%)
+b               = 128.71           +/- 4.773        (3.708%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.917  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 11:31:27 2016
+
+
+FIT:    data read from 'prom10.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [60.0000 : 285.000]
+        #datapoints = 177
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 2.7180113431e+01   0.00e+00  2.36e+00    7.384559e-01   1.287096e+02
+   3 2.6572289884e+01  -8.26e-07  2.36e-03    7.148794e-01   1.298860e+02
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 26.5723
+rel. change during last iteration : -8.25691e-12
+
+degrees of freedom    (FIT_NDF)                        : 175
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.389669
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.151842
+p-value of the Chisq distribution (FIT_P)              : 1
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.714879         +/- 0.02451      (3.428%)
+b               = 129.886          +/- 4.544        (3.499%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.932  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 11:31:53 2016
+
+
+FIT:    data read from 'prom10.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [65.0000 : 255.000]
+        #datapoints = 150
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 2.2389272710e+01   0.00e+00  2.21e+00    7.148794e-01   1.298860e+02
+   3 2.2246075722e+01  -8.33e-06  2.21e-03    7.415519e-01   1.247134e+02
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 22.2461
+rel. change during last iteration : -8.32532e-11
+
+degrees of freedom    (FIT_NDF)                        : 148
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.3877
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.150311
+p-value of the Chisq distribution (FIT_P)              : 1
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.741552         +/- 0.03168      (4.272%)
+b               = 124.713          +/- 5.397        (4.327%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.943  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 11:33:47 2016
+
+
+FIT:    data read from 'prom60.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [65.0000 : 255.000]
+        #datapoints = 40
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 2.8927246293e+03   0.00e+00  1.22e+01    7.415519e-01   1.247134e+02
+   3 4.7940723456e+01  -7.00e-05  1.22e-02    4.532867e-01   8.740431e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 47.9407
+rel. change during last iteration : -6.99707e-10
+
+degrees of freedom    (FIT_NDF)                        : 38
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.12321
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.2616
+p-value of the Chisq distribution (FIT_P)              : 0.129503
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.453287         +/- 0.05467      (12.06%)
+b               = 87.4043          +/- 11.82        (13.52%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.984  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 11:34:21 2016
+
+
+FIT:    data read from 'prom60.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [65.0000 : 255.000]
+        #datapoints = 40
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.7940723456e+01   0.00e+00  7.89e+00    4.532867e-01   8.740431e+01
+   1 4.7940723456e+01  -4.45e-11  7.89e-01    4.532867e-01   8.740431e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 47.9407
+rel. change during last iteration : -4.44638e-16
+
+degrees of freedom    (FIT_NDF)                        : 38
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.12321
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.2616
+p-value of the Chisq distribution (FIT_P)              : 0.129503
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.453287         +/- 0.05467      (12.06%)
+b               = 87.4043          +/- 11.82        (13.52%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.984  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 11:34:27 2016
+
+
+FIT:    data read from 'prom60.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [60.0000 : 285.000]
+        #datapoints = 47
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 7.9766744281e+01   0.00e+00  7.39e+00    4.532867e-01   8.740431e+01
+   3 7.3644515730e+01  -1.28e-01  7.39e-03    5.472892e-01   6.725811e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 73.6445
+rel. change during last iteration : -1.28293e-06
+
+degrees of freedom    (FIT_NDF)                        : 45
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.27928
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.63654
+p-value of the Chisq distribution (FIT_P)              : 0.0044952
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.547289         +/- 0.0491       (8.971%)
+b               = 67.2581          +/- 10.45        (15.54%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.975  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 11:34:28 2016
+
+
+FIT:    data read from 'prom60.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [65.0000 : 255.000]
+        #datapoints = 40
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 5.1677003381e+01   0.00e+00  8.18e+00    5.472892e-01   6.725811e+01
+   4 4.7940723456e+01  -7.40e-08  8.18e-04    4.532867e-01   8.740431e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 47.9407
+rel. change during last iteration : -7.3973e-13
+
+degrees of freedom    (FIT_NDF)                        : 38
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.12321
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.2616
+p-value of the Chisq distribution (FIT_P)              : 0.129503
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.453287         +/- 0.05467      (12.06%)
+b               = 87.4043          +/- 11.82        (13.52%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.984  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 11:34:35 2016
+
+
+FIT:    data read from 'prom60.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [60.0000 : 285.000]
+        #datapoints = 47
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 7.9766744388e+01   0.00e+00  7.39e+00    4.532867e-01   8.740431e+01
+   3 7.3644515730e+01  -1.28e-01  7.39e-03    5.472892e-01   6.725811e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 73.6445
+rel. change during last iteration : -1.28294e-06
+
+degrees of freedom    (FIT_NDF)                        : 45
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.27928
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.63654
+p-value of the Chisq distribution (FIT_P)              : 0.0044952
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.547289         +/- 0.0491       (8.971%)
+b               = 67.2581          +/- 10.45        (15.54%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.975  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 11:35:08 2016
+
+
+FIT:    data read from 'prom60.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [110.000 : 285.000]
+        #datapoints = 34
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 6.0415709796e+01   0.00e+00  8.86e+00    5.472892e-01   6.725811e+01
+   4 5.9007014388e+01  -4.96e-07  8.86e-04    4.739612e-01   8.361669e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 59.007
+rel. change during last iteration : -4.96213e-12
+
+degrees of freedom    (FIT_NDF)                        : 32
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.35793
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.84397
+p-value of the Chisq distribution (FIT_P)              : 0.00252571
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.473961         +/- 0.08503      (17.94%)
+b               = 83.6167          +/- 18.72        (22.39%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.991  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 11:35:21 2016
+
+
+FIT:    data read from 'prom60.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [110.000 : 230.000]
+        #datapoints = 30
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.4160859076e+01   0.00e+00  9.08e+00    4.739612e-01   8.361669e+01
+   3 4.3736773625e+01  -4.87e-01  9.08e-03    4.394284e-01   9.045614e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 43.7368
+rel. change during last iteration : -4.86841e-06
+
+degrees of freedom    (FIT_NDF)                        : 28
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.24981
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.56203
+p-value of the Chisq distribution (FIT_P)              : 0.0294978
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.439428         +/- 0.07916      (18.01%)
+b               = 90.4561          +/- 17.39        (19.23%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.991  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 11:37:38 2016
+
+
+FIT:    data read from 'prom60.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [60.0000 : 200.000]
+        #datapoints = 39
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 6.1608837046e+01   0.00e+00  2.92e+00    4.394284e-01   9.045614e+01
+   3 4.0205654516e+01  -2.96e-01  2.92e-03    9.017477e-01   3.118702e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 40.2057
+rel. change during last iteration : -2.95691e-06
+
+degrees of freedom    (FIT_NDF)                        : 37
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.04242
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.08664
+p-value of the Chisq distribution (FIT_P)              : 0.330166
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.901748         +/- 0.1071       (11.87%)
+b               = 31.187           +/- 13.41        (43%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.948  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 11:57:50 2016
+
+
+FIT:    data read from 'prom60.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [100.000 : 300.000]
+        #datapoints = 38
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 5.7775153049e+02   0.00e+00  1.23e+01    9.017477e-01   3.118702e+01
+   4 6.5099018917e+01  -4.33e-03  1.23e-03    4.847009e-01   8.146455e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 65.099
+rel. change during last iteration : -4.32727e-08
+
+degrees of freedom    (FIT_NDF)                        : 36
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.34473
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.80831
+p-value of the Chisq distribution (FIT_P)              : 0.00210231
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.484701         +/- 0.07297      (15.05%)
+b               = 81.4645          +/- 15.94        (19.57%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.988  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 11:57:59 2016
+
+
+FIT:    data read from 'prom10.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [100.000 : 300.000]
+        #datapoints = 160
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5505123461e+02   0.00e+00  1.58e+00    4.847009e-01   8.146455e+01
+   3 2.2557687780e+01  -1.14e-05  1.58e-03    7.496235e-01   1.224499e+02
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 22.5577
+rel. change during last iteration : -1.1406e-10
+
+degrees of freedom    (FIT_NDF)                        : 158
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.377849
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.14277
+p-value of the Chisq distribution (FIT_P)              : 1
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.749623         +/- 0.03041      (4.057%)
+b               = 122.45           +/- 6.352        (5.188%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.962  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 12:00:01 2016
+
+
+FIT:    data read from 'prom10.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [75.0000 : 190.000]
+        #datapoints = 93
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.2367750032e+01   0.00e+00  1.89e+00    7.496235e-01   1.224499e+02
+   3 1.2090063420e+01  -1.77e-03  1.89e-03    6.555479e-01   1.338265e+02
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 12.0901
+rel. change during last iteration : -1.7654e-08
+
+degrees of freedom    (FIT_NDF)                        : 91
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.364497
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.132858
+p-value of the Chisq distribution (FIT_P)              : 1
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.655548         +/- 0.06741      (10.28%)
+b               = 133.827          +/- 9.04         (6.755%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.969  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 12:00:06 2016
+
+
+FIT:    data read from 'prom10.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [75.0000 : 290.000]
+        #datapoints = 172
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 2.7669884287e+01   0.00e+00  2.29e+00    6.555479e-01   1.338265e+02
+   3 2.4188176859e+01  -4.90e-05  2.29e-03    7.433044e-01   1.234883e+02
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 24.1882
+rel. change during last iteration : -4.89757e-10
+
+degrees of freedom    (FIT_NDF)                        : 170
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.377205
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.142283
+p-value of the Chisq distribution (FIT_P)              : 1
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.743304         +/- 0.02581      (3.473%)
+b               = 123.488          +/- 5.054        (4.093%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.946  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 12:06:13 2016
+
+
+FIT:    data read from 'prom10.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [75.0000 : 350.000]
+        #datapoints = 208
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 6.0316522832e+01   0.00e+00  2.89e+00    7.433044e-01   1.234883e+02
+   3 5.9361330557e+01  -1.46e-06  2.89e-03    7.699247e-01   1.203379e+02
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 59.3613
+rel. change during last iteration : -1.45726e-11
+
+degrees of freedom    (FIT_NDF)                        : 206
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.536807
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.288162
+p-value of the Chisq distribution (FIT_P)              : 1
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.769925         +/- 0.02387      (3.1%)
+b               = 120.338          +/- 5.718        (4.752%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.939  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 12:08:43 2016
+
+
+FIT:    data read from 'prom10.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [75.0000 : 320.000]
+        #datapoints = 193
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.9491480908e+01   0.00e+00  2.58e+00    7.699247e-01   1.203379e+02
+   3 4.6785588748e+01  -2.43e-05  2.58e-03    8.498526e-01   1.074423e+02
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 46.7856
+rel. change during last iteration : -2.43456e-10
+
+degrees of freedom    (FIT_NDF)                        : 191
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.494925
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.244951
+p-value of the Chisq distribution (FIT_P)              : 1
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.849853         +/- 0.02763      (3.251%)
+b               = 107.442          +/- 5.933        (5.522%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.942  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 12:11:18 2016
+
+
+FIT:    data read from 'prom10.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [75.0000 : 300.000]
+        #datapoints = 180
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 2.9703006745e+01   0.00e+00  2.45e+00    8.498526e-01   1.074423e+02
+   3 2.6591752978e+01  -1.13e-04  2.45e-03    7.480820e-01   1.227850e+02
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 26.5918
+rel. change during last iteration : -1.13229e-09
+
+degrees of freedom    (FIT_NDF)                        : 178
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.386512
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.149392
+p-value of the Chisq distribution (FIT_P)              : 1
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.748082         +/- 0.02562      (3.425%)
+b               = 122.785          +/- 5.086        (4.143%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.945  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 12:12:48 2016
+
+
+FIT:    data read from 'prom10.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [75.0000 : 340.000]
+        #datapoints = 203
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 5.9487367929e+01   0.00e+00  2.79e+00    7.480820e-01   1.227850e+02
+   3 5.8514967989e+01  -2.21e-06  2.79e-03    7.792864e-01   1.187568e+02
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 58.515
+rel. change during last iteration : -2.21251e-11
+
+degrees of freedom    (FIT_NDF)                        : 201
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.539555
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.291119
+p-value of the Chisq distribution (FIT_P)              : 1
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.779286         +/- 0.02559      (3.284%)
+b               = 118.757          +/- 5.94         (5.002%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.939  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 12:16:57 2016
+
+
+FIT:    data read from 'prom10.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [80.0000 : 320.000]
+        #datapoints = 189
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.7340551986e+01   0.00e+00  2.60e+00    7.792864e-01   1.187568e+02
+   3 4.5273717849e+01  -2.62e-05  2.60e-03    8.490229e-01   1.076431e+02
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 45.2737
+rel. change during last iteration : -2.61708e-10
+
+degrees of freedom    (FIT_NDF)                        : 187
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.492042
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.242105
+p-value of the Chisq distribution (FIT_P)              : 1
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.849023         +/- 0.02839      (3.344%)
+b               = 107.643          +/- 6.154        (5.717%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.945  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 12:18:08 2016
+
+
+FIT:    data read from 'prom20.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [80.0000 : 320.000]
+        #datapoints = 187
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 9.0305576678e+01   0.00e+00  2.93e+00    8.490229e-01   1.076431e+02
+   3 2.7794395138e+01  -9.38e-05  2.93e-03    8.051947e-01   8.733068e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 27.7944
+rel. change during last iteration : -9.38275e-10
+
+degrees of freedom    (FIT_NDF)                        : 185
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.387608
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.15024
+p-value of the Chisq distribution (FIT_P)              : 1
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.805195         +/- 0.0208       (2.583%)
+b               = 87.3307          +/- 4.405        (5.044%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.946  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 12:18:29 2016
+
+
+FIT:    data read from 'prom30.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [80.0000 : 320.000]
+        #datapoints = 168
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.0493058334e+02   0.00e+00  3.46e+00    8.051947e-01   8.733068e+01
+   3 6.0309552190e+01  -1.13e-04  3.46e-03    7.695923e-01   7.416652e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 60.3096
+rel. change during last iteration : -1.12597e-09
+
+degrees of freedom    (FIT_NDF)                        : 166
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.602752
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.363311
+p-value of the Chisq distribution (FIT_P)              : 1
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.769592         +/- 0.02658      (3.453%)
+b               = 74.1665          +/- 5.819        (7.845%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.947  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 12:18:46 2016
+
+
+FIT:    data read from 'prom30.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [100.000 : 320.000]
+        #datapoints = 153
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 5.1033151538e+01   0.00e+00  3.35e+00    7.695923e-01   7.416652e+01
+   3 5.0978984489e+01  -6.83e-05  3.35e-03    7.800297e-01   7.149679e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 50.979
+rel. change during last iteration : -6.82949e-10
+
+degrees of freedom    (FIT_NDF)                        : 151
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.581041
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.337609
+p-value of the Chisq distribution (FIT_P)              : 1
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.78003          +/- 0.03025      (3.878%)
+b               = 71.4968          +/- 6.889        (9.635%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.962  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 12:19:13 2016
+
+
+FIT:    data read from 'prom40.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [100.000 : 320.000]
+        #datapoints = 119
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 9.3697172065e+01   0.00e+00  3.47e+00    7.800297e-01   7.149679e+01
+   3 7.0459675815e+01  -3.18e-03  3.47e-03    7.923778e-01   5.382447e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 70.4597
+rel. change during last iteration : -3.17506e-08
+
+degrees of freedom    (FIT_NDF)                        : 117
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.776028
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.602219
+p-value of the Chisq distribution (FIT_P)              : 0.999794
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.792378         +/- 0.04725      (5.963%)
+b               = 53.8245          +/- 9.354        (17.38%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.965  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 12:19:39 2016
+
+
+FIT:    data read from 'prom40.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [85.0000 : 220.000]
+        #datapoints = 97
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 6.4383820872e+01   0.00e+00  3.02e+00    7.923778e-01   5.382447e+01
+   3 6.3742710795e+01  -5.95e-03  3.02e-03    7.287555e-01   6.404012e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 63.7427
+rel. change during last iteration : -5.95433e-08
+
+degrees of freedom    (FIT_NDF)                        : 95
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.819131
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.670976
+p-value of the Chisq distribution (FIT_P)              : 0.994278
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.728756         +/- 0.06514      (8.938%)
+b               = 64.0401          +/- 10.93        (17.07%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.967  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 12:21:29 2016
+
+
+FIT:    data read from 'prom50.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [85.0000 : 220.000]
+        #datapoints = 70
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 9.2081032457e+01   0.00e+00  3.84e+00    7.287555e-01   6.404012e+01
+   3 5.9266176458e+01  -1.11e-01  3.84e-03    9.726094e-01   1.762151e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 59.2662
+rel. change during last iteration : -1.10698e-06
+
+degrees of freedom    (FIT_NDF)                        : 68
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.933575
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.871561
+p-value of the Chisq distribution (FIT_P)              : 0.766013
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.972609         +/- 0.06985      (7.182%)
+b               = 17.6215          +/- 9.983        (56.65%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.968  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 12:26:28 2016
+
+
+FIT:    data read from 'prom50.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [85.0000 : 220.000]
+        #datapoints = 70
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 5.9266176458e+01   0.00e+00  4.40e+00    9.726094e-01   1.762151e+01
+   1 5.9266176458e+01  -5.99e-11  4.40e-01    9.726094e-01   1.762151e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 59.2662
+rel. change during last iteration : -5.9945e-16
+
+degrees of freedom    (FIT_NDF)                        : 68
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.933575
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.871561
+p-value of the Chisq distribution (FIT_P)              : 0.766013
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.972609         +/- 0.06985      (7.182%)
+b               = 17.6215          +/- 9.983        (56.65%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.968  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 12:28:09 2016
+
+
+FIT:    data read from 'prom50.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [85.0000 : 180.000]
+        #datapoints = 55
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.5163549589e+01   0.00e+00  3.98e+00    9.726094e-01   1.762151e+01
+   4 4.4376468841e+01  -1.16e-04  3.98e-04    1.102636e+00   1.994898e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 44.3765
+rel. change during last iteration : -1.16033e-09
+
+degrees of freedom    (FIT_NDF)                        : 53
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.915037
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.837292
+p-value of the Chisq distribution (FIT_P)              : 0.794506
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.10264          +/- 0.137        (12.42%)
+b               = 1.9949           +/- 17.24        (864%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.988  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 12:28:26 2016
+
+
+FIT:    data read from 'prom50.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [85.0000 : 240.000]
+        #datapoints = 80
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 8.3668428184e+01   0.00e+00  5.14e+00    1.102636e+00   1.994898e+00
+   5 6.8563455376e+01  -7.09e-06  5.14e-05    8.975107e-01   2.686651e+01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 68.5635
+rel. change during last iteration : -7.09056e-11
+
+degrees of freedom    (FIT_NDF)                        : 78
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.93756
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.879019
+p-value of the Chisq distribution (FIT_P)              : 0.768641
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.897511         +/- 0.05723      (6.376%)
+b               = 26.8665          +/- 8.684        (32.32%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.961  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 12:29:43 2016
+
+
+FIT:    data read from 'prom50.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [90.0000 : 240.000]
+        #datapoints = 79
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 6.8319941006e+01   0.00e+00  4.26e+00    8.975107e-01   2.686651e+01
+   3 6.8298166591e+01  -7.81e-03  4.26e-03    8.899545e-01   2.820401e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 68.2982
+rel. change during last iteration : -7.80936e-08
+
+degrees of freedom    (FIT_NDF)                        : 77
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.941801
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.886989
+p-value of the Chisq distribution (FIT_P)              : 0.750239
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.889954         +/- 0.05912      (6.643%)
+b               = 28.204           +/- 9.06         (32.12%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.962  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 12:33:08 2016
+
+
+FIT:    data read from 'prom50.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [90.0000 : 220.000]
+        #datapoints = 69
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 6.0297114959e+01   0.00e+00  4.09e+00    8.899545e-01   2.820401e+01
+   3 5.9151447945e+01  -4.75e-01  4.09e-03    9.660835e-01   1.869481e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 59.1514
+rel. change during last iteration : -4.74605e-06
+
+degrees of freedom    (FIT_NDF)                        : 67
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.939605
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.882857
+p-value of the Chisq distribution (FIT_P)              : 0.741586
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.966083         +/- 0.07259      (7.514%)
+b               = 18.6948          +/- 10.48        (56.06%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.969  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 12:33:16 2016
+
+
+FIT:    data read from 'prom50.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [100.000 : 220.000]
+        #datapoints = 62
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 5.3295602724e+01   0.00e+00  4.58e+00    9.660835e-01   1.869481e+01
+   4 5.2858288683e+01  -2.06e-06  4.58e-04    1.007535e+00   1.170504e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 52.8583
+rel. change during last iteration : -2.06384e-11
+
+degrees of freedom    (FIT_NDF)                        : 60
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.938601
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.880971
+p-value of the Chisq distribution (FIT_P)              : 0.731792
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.00753          +/- 0.07445      (7.389%)
+b               = 11.705           +/- 10.85        (92.67%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.971  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 12:33:21 2016
+
+
+FIT:    data read from 'prom50.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [80.0000 : 220.000]
+        #datapoints = 74
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 6.1534642300e+01   0.00e+00  4.45e+00    1.007535e+00   1.170504e+01
+   4 6.0519468634e+01  -3.82e-05  4.45e-04    9.527972e-01   2.080610e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 60.5195
+rel. change during last iteration : -3.81956e-10
+
+degrees of freedom    (FIT_NDF)                        : 72
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.916814
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.840548
+p-value of the Chisq distribution (FIT_P)              : 0.830595
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.952797         +/- 0.06463      (6.783%)
+b               = 20.8061          +/- 9.08         (43.64%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.964  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 12:33:24 2016
+
+
+FIT:    data read from 'prom50.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [80.0000 : 250.000]
+        #datapoints = 85
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 7.1516273313e+01   0.00e+00  4.39e+00    9.527972e-01   2.080610e+01
+   3 7.0026149531e+01  -6.77e-01  4.39e-03    8.907713e-01   2.821232e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 70.0261
+rel. change during last iteration : -6.76869e-06
+
+degrees of freedom    (FIT_NDF)                        : 83
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.918525
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.843689
+p-value of the Chisq distribution (FIT_P)              : 0.844309
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.890771         +/- 0.05306      (5.957%)
+b               = 28.2123          +/- 7.929        (28.11%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.957  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 12:33:29 2016
+
+
+FIT:    data read from 'prom50.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [80.0000 : 300.000]
+        #datapoints = 94
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 7.3320941131e+01   0.00e+00  4.50e+00    8.907713e-01   2.821232e+01
+   3 7.3154912358e+01  -7.19e-03  4.50e-03    9.071401e-01   2.606476e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 73.1549
+rel. change during last iteration : -7.19062e-08
+
+degrees of freedom    (FIT_NDF)                        : 92
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.891719
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.795162
+p-value of the Chisq distribution (FIT_P)              : 0.926096
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.90714          +/- 0.03876      (4.273%)
+b               = 26.0648          +/- 6.346        (24.35%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.941  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 12:36:03 2016
+
+
+FIT:    data read from 'prom50.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [100.000 : 180.000]
+        #datapoints = 47
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.0468506885e+01   0.00e+00  3.99e+00    9.071401e-01   2.606476e+01
+   4 3.6523486916e+01  -1.31e-04  3.99e-04    1.240493e+00  -1.699598e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 36.5235
+rel. change during last iteration : -1.31079e-09
+
+degrees of freedom    (FIT_NDF)                        : 45
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.900907
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.811633
+p-value of the Chisq distribution (FIT_P)              : 0.811975
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.24049          +/- 0.1524       (12.28%)
+b               = -16.996          +/- 19.54        (114.9%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.990  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 12:36:47 2016
+
+
+FIT:    data read from 'prom50.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [85.0000 : 240.000]
+        #datapoints = 80
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.0580669245e+02   0.00e+00  5.80e+00    1.240493e+00  -1.699598e+01
+   4 6.8563455376e+01  -2.30e-04  5.80e-04    8.975107e-01   2.686651e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 68.5635
+rel. change during last iteration : -2.30038e-09
+
+degrees of freedom    (FIT_NDF)                        : 78
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.93756
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.879019
+p-value of the Chisq distribution (FIT_P)              : 0.768641
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.897511         +/- 0.05723      (6.376%)
+b               = 26.8665          +/- 8.684        (32.32%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.961  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 12:38:57 2016
+
+
+FIT:    data read from 'prom50.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [100.000 : 180.000]
+        #datapoints = 47
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.0647960725e+01   0.00e+00  3.96e+00    8.975107e-01   2.686651e+01
+   4 3.6523486916e+01  -1.02e-04  3.96e-04    1.240493e+00  -1.699598e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 36.5235
+rel. change during last iteration : -1.01608e-09
+
+degrees of freedom    (FIT_NDF)                        : 45
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.900907
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.811633
+p-value of the Chisq distribution (FIT_P)              : 0.811975
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.24049          +/- 0.1524       (12.28%)
+b               = -16.996          +/- 19.54        (114.9%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.990  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 12:39:00 2016
+
+
+FIT:    data read from 'prom50.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [85.0000 : 240.000]
+        #datapoints = 80
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.0580669246e+02   0.00e+00  5.80e+00    1.240493e+00  -1.699598e+01
+   4 6.8563455376e+01  -2.30e-04  5.80e-04    8.975107e-01   2.686651e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 68.5635
+rel. change during last iteration : -2.30038e-09
+
+degrees of freedom    (FIT_NDF)                        : 78
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.93756
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.879019
+p-value of the Chisq distribution (FIT_P)              : 0.768641
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.897511         +/- 0.05723      (6.376%)
+b               = 26.8665          +/- 8.684        (32.32%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.961  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 12:39:23 2016
+
+
+FIT:    data read from 'prom50.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [85.0000 : 180.000]
+        #datapoints = 55
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.6298645878e+01   0.00e+00  3.74e+00    8.975107e-01   2.686651e+01
+   4 4.4376468841e+01  -7.32e-06  3.74e-04    1.102636e+00   1.994898e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 44.3765
+rel. change during last iteration : -7.32252e-11
+
+degrees of freedom    (FIT_NDF)                        : 53
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.915037
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.837292
+p-value of the Chisq distribution (FIT_P)              : 0.794506
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.10264          +/- 0.137        (12.42%)
+b               = 1.9949           +/- 17.24        (864%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.988  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 12:39:29 2016
+
+
+FIT:    data read from 'prom50.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [85.0000 : 240.000]
+        #datapoints = 80
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 8.3668428262e+01   0.00e+00  5.14e+00    1.102636e+00   1.994898e+00
+   5 6.8563455376e+01  -7.09e-06  5.14e-05    8.975107e-01   2.686651e+01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 68.5635
+rel. change during last iteration : -7.09054e-11
+
+degrees of freedom    (FIT_NDF)                        : 78
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.93756
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.879019
+p-value of the Chisq distribution (FIT_P)              : 0.768641
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.897511         +/- 0.05723      (6.376%)
+b               = 26.8665          +/- 8.684        (32.32%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.961  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 12:46:22 2016
+
+
+FIT:    data read from 'prom50.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [85.0000 : 240.000]
+        #datapoints = 80
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 6.8563455376e+01   0.00e+00  4.26e+00    8.975107e-01   2.686651e+01
+   1 6.8563455376e+01  -6.22e-11  4.26e-01    8.975107e-01   2.686651e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 68.5635
+rel. change during last iteration : -6.21797e-16
+
+degrees of freedom    (FIT_NDF)                        : 78
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.93756
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.879019
+p-value of the Chisq distribution (FIT_P)              : 0.768641
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.897511         +/- 0.05723      (6.376%)
+b               = 26.8665          +/- 8.684        (32.32%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.961  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 12:46:38 2016
+
+
+FIT:    data read from 'prom70.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [85.0000 : 180.000]
+        #datapoints = 11
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.8067053239e+01   0.00e+00  2.95e+00    8.975107e-01   2.686651e+01
+   4 1.2310395049e+01  -1.03e-05  2.95e-04    7.936564e-01   1.939357e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 12.3104
+rel. change during last iteration : -1.02769e-10
+
+degrees of freedom    (FIT_NDF)                        : 9
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.16954
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.36782
+p-value of the Chisq distribution (FIT_P)              : 0.196371
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.793656         +/- 0.3109       (39.17%)
+b               = 19.3936          +/- 40.77        (210.2%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.968  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 12:47:16 2016
+
+
+FIT:    data read from 'prom80.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [85.0000 : 180.000]
+        #datapoints = 34
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 3.5129896751e+01   0.00e+00  2.70e+00    7.936564e-01   1.939357e+01
+   4 2.1242926884e+01  -1.15e-03  2.70e-04    7.244173e-01   4.956427e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 21.2429
+rel. change during last iteration : -1.14547e-08
+
+degrees of freedom    (FIT_NDF)                        : 32
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.814765
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.663841
+p-value of the Chisq distribution (FIT_P)              : 0.926209
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.724417         +/- 0.2094       (28.91%)
+b               = 49.5643          +/- 31.18        (62.91%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.990  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 12:47:36 2016
+
+
+FIT:    data read from 'prom80.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [65.0000 : 200.000]
+        #datapoints = 47
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 2.6999617941e+01   0.00e+00  2.84e+00    7.244173e-01   4.956427e+01
+   3 2.6493801065e+01  -8.45e-02  2.84e-03    7.874910e-01   3.806628e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 26.4938
+rel. change during last iteration : -8.44627e-07
+
+degrees of freedom    (FIT_NDF)                        : 45
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.767301
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.588751
+p-value of the Chisq distribution (FIT_P)              : 0.987328
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.787491         +/- 0.09493      (12.06%)
+b               = 38.0663          +/- 14.43        (37.91%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.972  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 12:47:52 2016
+
+
+FIT:    data read from 'prom80.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [85.0000 : 200.000]
+        #datapoints = 41
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 2.4725272529e+01   0.00e+00  3.09e+00    7.874910e-01   3.806628e+01
+   4 2.4359746261e+01  -1.24e-06  3.09e-04    6.846915e-01   5.524125e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 24.3597
+rel. change during last iteration : -1.24116e-11
+
+degrees of freedom    (FIT_NDF)                        : 39
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.790322
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.624609
+p-value of the Chisq distribution (FIT_P)              : 0.967771
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.684691         +/- 0.1433       (20.92%)
+b               = 55.2413          +/- 22.87        (41.4%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.987  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 12:49:24 2016
+
+
+FIT:    data read from 'prom80.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [100.000 : 300.000]
+        #datapoints = 52
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.2973455903e+01   0.00e+00  4.00e+00    6.846915e-01   5.524125e+01
+   3 2.9829076050e+01  -5.48e-01  4.00e-03    8.758824e-01   2.517591e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 29.8291
+rel. change during last iteration : -5.47915e-06
+
+degrees of freedom    (FIT_NDF)                        : 50
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.772387
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.596582
+p-value of the Chisq distribution (FIT_P)              : 0.989527
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.875882         +/- 0.04988      (5.695%)
+b               = 25.1759          +/- 10.28        (40.83%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.960  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 12:53:38 2016
+
+
+FIT:    data read from 'prom80.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [100.000 : 300.000]
+        #datapoints = 52
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 2.9829076050e+01   0.00e+00  4.81e+00    8.758824e-01   2.517591e+01
+   1 2.9829076050e+01  -1.56e-09  4.81e-01    8.758824e-01   2.517591e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 29.8291
+rel. change during last iteration : -1.56024e-14
+
+degrees of freedom    (FIT_NDF)                        : 50
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.772387
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.596582
+p-value of the Chisq distribution (FIT_P)              : 0.989527
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.875882         +/- 0.04988      (5.695%)
+b               = 25.1759          +/- 10.28        (40.83%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.960  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 12:53:56 2016
+
+
+FIT:    data read from 'prom80.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [100.000 : 250.000]
+        #datapoints = 44
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 2.3565931696e+01   0.00e+00  3.88e+00    8.758824e-01   2.517591e+01
+   3 2.3563569642e+01  -1.42e-02  3.88e-03    8.792512e-01   2.477476e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 23.5636
+rel. change during last iteration : -1.42235e-07
+
+degrees of freedom    (FIT_NDF)                        : 42
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.749024
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.561037
+p-value of the Chisq distribution (FIT_P)              : 0.990366
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.879251         +/- 0.09673      (11%)
+b               = 24.7748          +/- 16.81        (67.86%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.982  1.000 
+
+
+*******************************************************************************
+Fri Jan 29 12:54:02 2016
+
+
+FIT:    data read from 'prom80.dat' u 1:2:3
+        format = x:z:s
+        x range restricted to [55.0000 : 250.000]
+        #datapoints = 55
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 3.1211318185e+01   0.00e+00  3.54e+00    8.792512e-01   2.477476e+01
+   4 3.0819446023e+01  -3.52e-07  3.54e-04    8.294374e-01   3.386287e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 30.8194
+rel. change during last iteration : -3.51843e-12
+
+degrees of freedom    (FIT_NDF)                        : 53
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.762561
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.581499
+p-value of the Chisq distribution (FIT_P)              : 0.993658
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.829437         +/- 0.06907      (8.327%)
+b               = 33.8629          +/- 11.37        (33.57%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.964  1.000 
