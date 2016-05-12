@@ -4,6 +4,7 @@ Script de Procesamiento de Datos
 Projecto Escaramujo
 Por : andrés valle
 ECFM - USAC
+Último cambio en 12/Mayo/2016
 
 */*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/
 
