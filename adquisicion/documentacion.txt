@@ -1,0 +1,11 @@
+*/*//*//*/*//*//*/*//*//*/*//*//*/*//*//*/*//*//*/*//*//*/*//*//*/*//*//
+
+Scripts de Adquisición
+Escaramujo Guatemala
+ECFM - USAC
+
+Scripts por : Héctor Pérez
+
+*/*//*//*/*//*//*/*//*//*/*//*//*/*//*//*/*//*//*/*//*//*/*//*//*/*//*//
+
+- El script principal que usamos es 'scriptAdquisición.sh', para usarlo  
