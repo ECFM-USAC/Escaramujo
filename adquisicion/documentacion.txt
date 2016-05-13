@@ -8,4 +8,10 @@ Scripts por : Héctor Pérez
 
 */*//*//*/*//*//*/*//*//*/*//*//*/*//*//*/*//*//*/*//*//*/*//*//*/*//*//
 
-- El script principal que usamos es 'scriptAdquisición.sh', para usarlo  
+El script de adquisición principal está escrito en Python 2.7. Antes de correrlo debe verificarse
+el nombre del puerto serial y ajustarse el tamaño del buffer (nosotros usamos 128MB). Cada vez que
+el buffer alcance el tamaño máximo, hará un nuevo archivo. Para detener la adquisición usar "$ Ctrl-C".
+Cuando se detiene la adquisión se guarda un archivo con el contenido del buffer, aún si éste no ha llegado al
+tamaño máximo.
+
+Antes de usar el script se deben guardar en Minicom las configuraciones (TL,Canales habilitados,etc.) primero.
