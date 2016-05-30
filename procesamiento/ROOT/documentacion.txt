@@ -7,6 +7,7 @@ ECFM - USAC
 Último cambio en 12/Mayo/2016
 
 */*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/
+Este script toma salidas de minicom y las procesa en árboles de ROOT. Se utiliza el "desempaquetador" de Federico Izraelevitch.
 
 Para usar este script
 
