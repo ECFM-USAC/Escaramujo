@@ -14,4 +14,4 @@ el buffer alcance el tamaño máximo, hará un nuevo archivo. Para detener la ad
 Cuando se detiene la adquisión se guarda un archivo con el contenido del buffer, aún si éste no ha llegado al
 tamaño máximo.
 
-Antes de usar el script se deben guardar en Minicom las configuraciones (TL,Canales habilitados,etc.) primero.
+Antes de usar el script se deben guardar en Minicom las configuraciones (TL,Canales habilitados,etc.).
