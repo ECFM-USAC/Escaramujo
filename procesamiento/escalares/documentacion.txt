@@ -1,0 +1,31 @@
+*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/
+
+Script de Procesamiento de Escalares
+Projecto Escaramujo
+Por : Héctor Pérez
+ECFM - USAC
+Último cambio en 12/Mayo/2016
+
+*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/
+
+* "scalarDs-Extract.py"  - Este script toma archivos de salida de Minicom y regresa un archivo con datos de conteos, tiempo, temperatura y presión.
+
+Ejecutar como:
+
+$ python scalarDs-Extract.py archivoDeEntrada.txt archivoDeSalida.txt
+--------------------------------------------------------------------------------------
+
+
+* "gnuplotScalarDs-Extract.py"  - Este script está basado en "scalarDs-Extract.py", la única diferencia es una columna adicional de salida para la fecha que está en el formato de "Gnuplot". El archivo de configuraciones a cargar en Gnuplot es "time_gplot_conf.gpd".
+
+Ejecutar como:
+
+$ python  gnuplotScalarDs-Extract.py archivoDeEntrada.txt archivoDeSalida.txt
+--------------------------------------------------------------------------------------
+
+* "resumenEscales.py"  - Este script recibe un archivo de salida de Minicom e imprime en pantalla un resumen de la cantidad de conteos en cada canal.
+
+Ejecutar como:
+
+$ python resumenEscales.py archivoDeEntrada.txt
+
