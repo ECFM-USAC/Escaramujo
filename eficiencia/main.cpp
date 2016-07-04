@@ -1,173 +1,6 @@
-#include <string>
-#include <fstream>
-#include <iomanip>
-#include <vector>
-#include <map> 
-#include <algorithm>
-#include <functional>
-#include <cmath>
-#include <iostream>
-#include <sstream>
-#include <utility>
-#include <limits>
-#include <getopt.h>
-using namespace std;
+#include "Escaramujo.h"
 
-#include "TRootBrowser.h"
-#include "TBrowser.h"
-#include "TH1F.h"
-#include "TF1.h"
-#include "TH2F.h"
-#include "TCanvas.h"
-#include "TFile.h"
-#include "TLine.h"
-#include "TProfile.h"
-#include "TError.h"
-#include "TNtuple.h"
-#include "TVector.h"
-#include "TGraph.h"
-#include "TGraphErrors.h"
-#include "TPad.h"
-#include "TGaxis.h"
-#include "TAttLine.h"
-#include "TApplication.h"
-#include "THStack.h"
-#include <TGClient.h>
-#include <TF1.h>
-#include "TTree.h"
-#include "TBranch.h"
-#include "TChain.h"
-#include <TRandom.h>
-#include <TGButton.h>
-#include <TGFrame.h>
-#include <TROOT.h>
-#include "TStyle.h"
-#include "TTreeViewer.h"
-#include "TLegend.h"
-#include "TLatex.h"
-#include "TPaveStats.h"
-
-const int kMaxLineBarMap = 1024;
-const int kHitsTDCmax  = 18;
-
-const float kTMin = -100;
-const float kTMax = 40000;
-const int kTBins = 0.01*(kTMax-kTMin);
-
-const int kNumCh = 3;
-const int kNHitsMin = 0;
-const int kNHitsMax = 20;
-const int kHNitsBins = kNHitsMax - kNHitsMin;
-
-
-bool fileExist(const char *fileName){
-  ifstream in(fileName,ios::in);
-  if(in.fail()){
-    in.close();
-    return false;
-  }
-  in.close();
-  return true;
-}
-
-
-
-bool readListFile(const string &inListFile, vector<string> &inFileList){
-  
-  cout << "Reading input list file.\n";
-  
-  ifstream in(inListFile.c_str());
-  
-  if(!in.is_open()){
-    cerr << "\nCan't open file: " << inListFile << endl << endl;
-    return false;
-  }
-  
-  while(!in.eof()){
-    char line[kMaxLineBarMap];
-    in.getline(line,kMaxLineBarMap);
-    string lineS(line);
-    
-    size_t found = lineS.find_first_not_of(" \t\v\r\n#");
-    if(found == string::npos) continue;
-    
-    unsigned int i=0;
-    istringstream eventISS(&(lineS[found]));
-    string aux;
-    const unsigned int nCol = 1;
-    while(eventISS >> aux){
-      inFileList.push_back(aux);
-      if(i>=nCol){
-        i=-1;
-        cout << aux << endl;
-        return false;
-      }
-      ++i;
-    }
-    if(i!=nCol){
-      cout << "Error: there is more than one column in the list file!\n\n";
-      return false;
-    }
-  }
-  
-  in.close();
-  return true;
-}
-
-int processCommandLineArgs(const int argc, char *argv[], vector<string> &inFileList){
-  
-  if(argc == 1) return 1;
-  
-  bool inListFileFlag = false;
-  string inListFile = "";
-  int opt=0;
-  while ( (opt = getopt(argc, argv, "i:")) != -1) {
-    switch (opt) {
-    
-    case 'i':
-      if(!inListFileFlag){
-        inListFile = optarg;
-        inListFileFlag = true;
-      }
-      else{
-        cerr << "\nError, can not set more than one input list file!\n\n";
-        return 2;
-      }
-      break;
-
-    default: /* '?' */
-      return 1;
-    }
-  }
-
-  inFileList.clear();
-  if(inListFileFlag){
-    cout << inListFile << endl;
-    bool allOk = readListFile(inListFile, inFileList);
-    if(!allOk){
-      cerr << "\nError reading input list file!\n\n";
-      return 1;
-    }
-  }
-  
-  for(int i=optind; i<argc; ++i){
-    inFileList.push_back(argv[i]);
-    if(!fileExist(argv[i])){
-      cout << "\nError reading input file: " << argv[i] <<"\nThe file doesn't exist!\n\n";
-      return 1;
-    }
-  }
-  
-  if(inFileList.size()==0){
-    cerr << "Error: no input file(s) provided!\n\n";
-    return 1;
-  }
-  
-  return 0;
-}
-
-
-int main(int argc,char *argv[]) {   // code starts // main
+int main(int argc,char *argv[]) {   // code starts // main 
   
   TApplication myApp("myApp", 0, 0 ,0,-1);   
   
@@ -215,32 +48,45 @@ int main(int argc,char *argv[]) {   // code starts // main
   dataTree->SetBranchAddress("TDC_TE_1",&TDC_TE_1);
   dataTree->SetBranchAddress("TDC_TE_2",&TDC_TE_2);  
   
-  { // Open the Ttree and index it event-by-event
+   // Open the Ttree and index it event-by-event
     
 	int n_events = (int) dataTree->GetEntries();
 
-	/// Aqui empecé yo
+	/// 
+	/// Inicio
+	/// 
 
-	int nHits_chABC = 0;  
-	int nHits_chAC = 0; 
+
+	/* En el siguiente código se desea calcular la eficiencia de la placa B
+	 *
+	 * Órden de Placas
+	 * A
+	 * B
+	 * C
+	 * */
+	
+
+	int nHits_chABC = 0;  //Cantidad de pulsos coincidentes en las 3 placas 
+	int nHits_chAC = 0;  //Cantidad de pulsos coincidentes en 2 placas
 	int ventana = 50; //Nanosegundos
 	double efficiency = 0;   
      
-	for(int i=0; i<n_events; i++){  // loop over the number of events start
+	for(int i=0; i<n_events; i++) // Este ciclo itera sobre cada evento	 
+	{  
       
 		dataTree->GetEntry(i);   // pido que la entrada del árbol llene las variables previamente declaradas
      
 		///////////////////////////////////////////////////
 
-		if (sizeTDC_2 > 0 && sizeTDC_1 > 0 )
+		if (sizeTDC_0 > 0 && sizeTDC_2 > 0 ) // Por lo menos un conteo en la placa A y C 
 		{
-			if ( fabs(TDC_LE_2[0]- TDC_LE_1[0]) <= ventana )
+			if ( fabs(TDC_LE_2[0]- TDC_LE_1[0]) <= ventana ) //El pulso debe ser coincidente en A y C
 			{
 				nHits_chAC++;
 
-				if ( sizeTDC_0 > 0 )
+				if ( sizeTDC_0 > 0 ) //Por lo menos un conteo en la placa B
 				{
-					if ( fabs(TDC_LE_0[0]- TDC_LE_1[0]) <= ventana ) nHits_chABC++ ;
+					if ( fabs(TDC_LE_0[0]- TDC_LE_1[0]) <= ventana ) nHits_chABC++ ; //El pulso en B también debe ser coincidente
 				}
 
 			}
@@ -248,12 +94,15 @@ int main(int argc,char *argv[]) {   // code starts // main
 
 		//////////////////////////////////////////////////////
   } // End of indexing the TTree
+
+		//Definimos la eficiencia
+
 		efficiency = static_cast <double> (nHits_chABC) / nHits_chAC ;
 
 		cout << "A^C" << "\t" << nHits_chAC << endl ;
 		cout << "A^B^C" << "\t" << nHits_chABC << endl ;
 		cout << "Eficiencia:" << "\t" << efficiency << endl ;
-  }
+  
   
   //   myApp.Run();
   return 0;  // main end
