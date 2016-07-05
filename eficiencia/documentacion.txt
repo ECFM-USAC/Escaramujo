@@ -1,0 +1,18 @@
+*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/
+
+Eficiencia
+Projecto Escaramujo
+Por : andrés valle
+ECFM - USAC
+Último cambio en 04/Julio/2016
+
+*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/
+
+Considerando un arreglo de tres placas (ABC), este programa calcula la eficiencia de la placa B. Si desea realizar la eficiencia de un arreglo distinto, debe modificarse el código. Los resultados se imprimen en la pantalla.
+
+Compilar con
+$ make
+
+Correr como
+$ ./eficiencia ArchivosDeEntrada.root
+
