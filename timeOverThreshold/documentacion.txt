@@ -1,6 +1,6 @@
 */*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/
 
-Eficiencia
+Time Over Threshold
 Projecto Escaramujo
 Por : andrés valle
 ECFM - USAC
@@ -8,12 +8,12 @@ ECFM - USAC
 
 */*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/
 
-Considerando un arreglo de tres placas (ABC), este programa calcula la eficiencia de la placa B. Si desea realizar la eficiencia de un arreglo distinto, debe modificarse el código. Los resultados se imprimen en la pantalla.
+Considerando un arreglo de tres placas (ABC), este programa calcula el tiempo sobre el umbral para los pulsos de las dos placas superiores. Si desea calcular el ToT de un arreglo distinto, debe modificarse el código. Los resultados se imprimen en el archivo "timeOverThreshold.dat".
 
 Compilar con
 $ make
 
 Correr como
-$ ./eficiencia ArchivosDeEntrada.root
+$ ./tot ArchivosDeEntrada.root
 
 Los archivos de entrada deben ser datos de doble o triple coincidencia.
