@@ -1,5 +1,13 @@
+#Script para procesar datos del Proyecto Escaramujo
+#Por andrés valle - ECFM USAC - Guatemala
+#Útima revisión 12 - Mayo - 2016
+
+"Este script toma la salida de './tot', calcula el promedio y la desviación estándar de los datos respecto a totB
+"
+
 #!/usr/bin/python2
 # coding: utf-8
+
 import numpy
 import sys
 

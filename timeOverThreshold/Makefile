@@ -5,18 +5,18 @@ CFLAGS = -Wall -I$(CFITSIO) $(shell root-config --cflags) -O3
 LIBS = -L$(CFITSIO) -lcfitsio -lm $(shell root-config --glibs) -lTreeViewer
 GLIBS = 
 GLIBS += 
-OBJECTS = programa.o 
+OBJECTS = tot.o 
 HEADERS = 
 
-ALL : programa
+ALL : tot
 	echo "Listo!"
-	rm programa.o
+	rm tot.o
 
-programa : $(OBJECTS)
-	$(CPP) $(OBJECTS) -o programa $(LIBS) $(GLIBS) $(CFLAGS)
+tot : $(OBJECTS)
+	$(CPP) $(OBJECTS) -o tot $(LIBS) $(GLIBS) $(CFLAGS)
 
-programa.o : main.cpp $(HEADERS)
-	$(CPP) -c main.cpp -o programa.o $(CFLAGS)
+tot.o : main.cpp $(HEADERS)
+	$(CPP) -c main.cpp -o tot.o $(CFLAGS)
 
 clean:
 	rm -f *~ *.o *.exe
