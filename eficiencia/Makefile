@@ -9,8 +9,7 @@ OBJECTS = eficiencia.o
 HEADERS = 
 
 ALL : eficiencia
-	echo "Listo!"
-	rm eficiencia.o
+	@echo "Compilación finalizada con éxito."
 
 eficiencia : $(OBJECTS)
 	$(CPP) $(OBJECTS) -o eficiencia $(LIBS) $(GLIBS) $(CFLAGS)

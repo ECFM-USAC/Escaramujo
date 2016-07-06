@@ -9,8 +9,7 @@ OBJECTS = tot.o
 HEADERS = 
 
 ALL : tot
-	echo "Listo!"
-	rm tot.o
+	@echo "Compilación finalizada con éxito."
 
 tot : $(OBJECTS)
 	$(CPP) $(OBJECTS) -o tot $(LIBS) $(GLIBS) $(CFLAGS)

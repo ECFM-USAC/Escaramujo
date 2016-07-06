@@ -9,8 +9,7 @@ OBJECTS = vidaMedia.o
 HEADERS = 
 
 ALL : vidaMedia
-	echo "Listo!"
-	rm vidaMedia.o
+	@echo "Compilación finalizada con éxito."
 
 vidaMedia : $(OBJECTS)
 	$(CPP) $(OBJECTS) -o vidaMedia $(LIBS) $(GLIBS) $(CFLAGS)
@@ -19,4 +18,4 @@ vidaMedia.o : main.cpp $(HEADERS)
 	$(CPP) -c main.cpp -o vidaMedia.o $(CFLAGS)
 
 clean:
-	rm -f *~ *.o *.exe
+	@rm -f *~ *.o *.exe
