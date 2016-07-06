@@ -1,0 +1,22 @@
+*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/
+
+Vida Media
+Projecto Escaramujo
+Por : andrés valle
+ECFM - USAC
+Último cambio en 04/Julio/2016
+
+*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/
+
+Considerando un arreglo de tres placas (ABC), este programa calcula los tiempos de decaimiento de muones que decaen en la placa media. Si desea calcular para un arreglo distinto, debe modificarse el código. Los resultados se imprimen en "filtro.dat". 
+
+Compilar con
+$ make
+
+Correr como
+$ ./vidaMedia ArchivosDeEntrada.root
+
+Los archivos de entrada deben ser datos de doble coincidencia. El script "histograma.py" toma la salida del programa y realiza un histograma que se imprime en "salida.dat".
+
+Correr como
+$ python2 histograma.py

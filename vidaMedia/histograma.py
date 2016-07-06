@@ -14,9 +14,11 @@ for line in entrada:
     line = float(line.strip())
     datos.append(line)
 
-n, bins,patches = plt.hist(datos,bins=27)
+numeroBines=28
+n, bins,patches = plt.hist(datos,bins=numeroBines)
 salida = open('salida.dat', 'w')
 
-for i in range(0,27):
-    if (0.5*bins[i]+0.5*bins[i+1] <=11000):
-        print >> salida, 0.5*bins[i]+0.5*bins[i+1] , n[i]
+for i in range(0,numeroBines - 1 ):
+    #if (0.5*bins[i]+0.5*bins[i+1] <=11000):
+      #  print >> salida, 0.5*bins[i]+0.5*bins[i+1] , n[i]
+    print >> salida, 0.5*bins[i]+0.5*bins[i+1] , n[i]
